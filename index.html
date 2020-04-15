@@ -1,0 +1,449 @@
+<<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" type="text/css" href="desc.css">
+
+    <script type="text/javascript" src="desc.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+
+    <title>Description page</title>
+  </head>
+  <body>
+
+    <div class="desc">
+
+
+      <div class="descL">
+        <div class="desc1">
+        <div class="ilefT">
+          <div class="imaL">
+             <img src="img/s2.jpg" id="g1" onmouseover="showimage(i=0)" >
+          </div>
+
+          <div class="imaL">
+             <img src="img/s3.jpg" onmouseover="showimage(i=1)">
+          </div>
+
+          <div class="imaL">
+             <img src="img/s4.jpg" onmouseover="showimage(i=2)">
+          </div>
+
+          <div class="imaL">
+             <img src="img/s5.jpg" onmouseover="showimage(i=3)">
+          </div>
+
+        </div>
+        <div class="irighT">
+          <div class="MainI">
+            <img src="img/s2.jpg" id="imgM" >
+
+          </div>
+
+          <div class="btnL">
+            <button class="btnj1"><span class="fa fa-shopping-cart"></span>&nbsp;&nbsp;Add To Bag</button>
+            <button class="btnj0" ><span class="fa fa-heart "></span>&nbsp;&nbsp;Wishlist</button>
+          </div>
+
+
+        </div>
+
+      </div>
+
+
+
+      </div>
+
+
+
+
+
+
+
+      <div class="descR">
+
+
+        <div id="space">
+
+        </div>
+
+
+        <div class="companyN">
+          <h1>BAPS </h1>
+        </div>
+
+
+        <div class="productN">
+          <h1>FabTag Striped Bollywood Cotton Silk Saree  (Multicolor) </h1>
+        </div>
+        <div class="special">
+          <span>special price ends in </span>
+          <span id="demo"></span>
+        </div>
+        <div class="priceT">
+
+          <span class="mainPr">&#8377;479<span>
+            <span class="cut">&#8377;3999</span>
+            <span class="off">84% off</span>
+
+        </div>
+        <div class"mainRt1">
+        <span class="rat1">
+        <div class="raT">
+          <span class="Te">4.5</span>
+          <span class="fa fa-star checked"></span>
+        </div>
+      </span>
+      <span class="rat2">
+
+          <span>7,892 rating and </span>
+          <span>4,687 reviews</span>
+
+      </span>
+</div>
+
+<div class="deli">
+  <span class="deli0"><img src="img/loc.svg" ></span>
+  <span class="deli1">Deliver to</span>
+</div>
+
+
+<div class="pin">
+  <input placeholder="Enter The Pincode">
+</div>
+
+        <!--<div class="avaiL">
+          <p>Availble</p>
+
+        </div>-->
+<!--note only max four column will be there in the on row so in the time of using django use for loop for that-->
+
+<div class="avaiL">
+
+        <div class="avcoLrow">
+
+  <div class="avcoLcolumn">
+
+    <p>color:</p>
+  </div>
+          <div class="avcoLcolumn">
+
+            <a href="#">
+            <img src="img/sI.jpg" title="new style">
+            </a>
+          </div>
+
+          <div class="avcoLcolumn">
+
+           <a href="#">
+            <img src="img/sI.jpg" title="new style">
+            </a>
+
+
+          </div>
+
+          <div class="avcoLcolumn">
+
+           <a href="#">
+            <img src="img/sI.jpg" title="new style" onmouseover="showData1()">
+
+            </a>
+
+
+          </div>
+          <div class="avcoLcolumn">
+
+            <a href="#">
+            <img src="img/sI.jpg" >
+            </a>
+
+         </div>
+       </span>
+      </div>
+    </div>
+
+      <div class="sbtn">
+        <span>
+        <span class="size">
+         Size
+      </span>
+      <span>
+        <button class="Sbtn1"> S</button>
+        <button class="Sbtn1"> L</button>
+        <button class="Sbtn1"> XL</button>
+        <button class="Sbtn1"> XXL</button>
+      </span>
+    </span>
+
+      </div>
+      <div class="Seller">
+        <span class="w1">
+        <span>Seller &nbsp;</span>
+        <span style="color: #2874f0;">amala dhmaka &nbsp;</span>
+      </span>
+      <span class="rat11">
+      <div class="raT123">
+        <span class="Te1">4.5</span>
+        <span class="fa fa-star checked"></span>
+      </div>
+    </span>
+      </div>
+
+
+
+
+      <div class="detail">
+
+        <div class="detL">
+
+          <h1 onclick="showD()">Product Detail</h1>
+        </div>
+
+        <div class="detR">
+          <div class="x">
+          <img src="img/plus1.svg"   onclick="showD()" id="deB">
+        </div>
+
+        </div>
+      </div>
+        <div id="content">
+<div class="Drow">
+  <div class="Dcolom">
+    <div class="d1">Number of Contents</div>
+    <div class="d2">1 Backpack</div>
+
+  </div>
+  <div class="Dcolom">
+    <div class="d1">type</div>
+    <div class="d2">Bag</div>
+
+  </div>
+
+  <div class="Dcolom">
+    <div class="d1">Number of Contents</div>
+    <div class="d2">1 Backpack</div>
+
+  </div>
+  <div class="Dcolom">
+    <div class="d1">type</div>
+    <div class="d2">Bag</div>
+
+  </div>
+
+  <div class="Dcolom">
+    <div class="d1">Number of Contents</div>
+    <div class="d2">1 Backpack</div>
+
+  </div>
+  <div class="Dcolom">
+    <div class="d1">type</div>
+    <div class="d2">Bag</div>
+
+  </div>
+
+</div>
+</div>
+
+<div class="MainR">
+  <span  class="ReviewH">
+
+        Ratings & Reviews
+
+    </span>
+      <span class="rat145">
+      <div class="raT">
+        <span class="Te">4.5</span>
+        <span class="fa fa-star checked"></span>
+      </div>
+    </span>
+    <span class="rat245">
+
+        <span>7,892 rating and </span>
+        <span>4,687 reviews</span>
+
+    </span>
+
+
+</div>
+
+
+<div class="mrev">
+
+
+<div class="Rcard">
+  <div class="Rb">
+    <span class="rat14578">
+    <div class="raT1234">
+      <span class="Te1">4.5</span>
+      <span class="fa fa-star checked"></span>
+    </div>
+  </span>
+  <span> &nbsp;&nbsp;It is very good product</span>
+  </div>
+  <div class="Rn">
+    <span >name of the reviever</span>
+    <span>
+      &nbsp;&nbsp;&nbsp;&nbsp;
+      27/09/2018
+    </span>
+  </div>
+<div class="Ra">
+    <span >certified,</span>
+    <span>
+      Address
+    </span>
+  </div>
+
+</div>
+
+
+<div class="Rcard">
+  <div class="Rb">
+    <span class="rat14578">
+    <div class="raT1234">
+      <span class="Te1">4.5</span>
+      <span class="fa fa-star checked"></span>
+    </div>
+  </span>
+  <span> &nbsp;&nbsp;It is very good product</span>
+  </div>
+  <div class="Rn">
+    <span >name of the reviever</span>
+    <span>
+      &nbsp;&nbsp;&nbsp;&nbsp;
+      27/09/2018
+    </span>
+  </div>
+<div class="Ra">
+    <span >certified,</span>
+    <span>
+      Address
+    </span>
+  </div>
+
+</div>
+
+
+
+<div class="Rcard">
+  <div class="Rb">
+    <span class="rat14578">
+    <div class="raT1234">
+      <span class="Te1">4.5</span>
+      <span class="fa fa-star checked"></span>
+    </div>
+  </span>
+  <span> &nbsp;&nbsp;It is very good product</span>
+  </div>
+  <div class="Rn">
+    <span >name of the reviever</span>
+    <span>
+      &nbsp;&nbsp;&nbsp;&nbsp;
+      27/09/2018
+    </span>
+  </div>
+<div class="Ra">
+    <span >certified,</span>
+    <span>
+      Address
+    </span>
+  </div>
+
+</div>
+
+
+<div class="Rcard">
+  <div class="Rb">
+    <span class="rat14578">
+    <div class="raT1234">
+      <span class="Te1">4.5</span>
+      <span class="fa fa-star checked"></span>
+    </div>
+  </span>
+  <span> &nbsp;&nbsp;It is very good product</span>
+  </div>
+  <div class="Rn">
+    <span >name of the reviever</span>
+    <span>
+      &nbsp;&nbsp;&nbsp;&nbsp;
+      27/09/2018
+    </span>
+  </div>
+<div class="Ra">
+    <span >certified,</span>
+    <span>
+      Address
+    </span>
+  </div>
+
+</div>
+
+
+<div class="Rcard">
+  <div class="Rb">
+    <span class="rat14578">
+    <div class="raT1234">
+      <span class="Te1">4.5</span>
+      <span class="fa fa-star checked"></span>
+    </div>
+  </span>
+  <span> &nbsp;&nbsp;It is very good product</span>
+  </div>
+  <div class="Rn">
+    <span >name of the reviever</span>
+    <span>
+      &nbsp;&nbsp;&nbsp;&nbsp;
+      27/09/2018
+    </span>
+  </div>
+<div class="Ra">
+    <span >certified,</span>
+    <span>
+      Address
+    </span>
+  </div>
+
+</div>
+
+
+
+
+
+
+</div>
+
+      </div>
+    </div>
+
+</div>
+
+<!--<script>
+// Initiate zoom effect:
+imageZoom("imgM", "space");
+</script>
+
+
+
+<script type="text/javascript">
+$(document).ready(function(){
+
+$("#imgM").hover(function(){
+
+$("#space").show();
+},
+function(){
+$("#space").hide();
+
+});
+
+});
+
+</script>-->
+  </body>
+</html>
